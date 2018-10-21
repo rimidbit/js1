@@ -9,17 +9,17 @@
     <body>
         <form>
             <input type="text" class="inp1"> 
-			<select name="select">
-			<option>Выберите дейчтвие</option>
-			<option>+</option>
-			<option>-</option>
-			<option>*</option>
-			<option>/</option>
+			<select name="select" class="actions">
+				<option class="item" data-action="choice of action">Выберите дейчтвие</option>
+				<option class="item" data-action="+">+</option>
+				<option class="item" data-action="-">-</option>
+				<option class="item" data-action="*">*</option>
+				<option class="item" data-action="/">/</option>
 			</select>
             <input type="text" class="inp2">
             <input type="button" class="go" value="=">
             <span class="res"></span>
         </form>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
-        <script src="js/scripts.js"></script>
